@@ -32,6 +32,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   void initRenderers() async {
     await _localVideoRenderer.initialize();
+    setState(() {});
   }
 
   _getUserMedia() async {
